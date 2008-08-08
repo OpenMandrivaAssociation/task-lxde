@@ -1,6 +1,6 @@
 Name: task-lxde
 Version: 2009.0
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Metapackage for lxde
 Group: Graphical desktop/Other
 License: GPL
