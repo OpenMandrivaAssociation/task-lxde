@@ -1,12 +1,13 @@
 Name: task-lxde
 Version: 2009.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: Metapackage for lxde
 Group: Graphical desktop/Other
 License: GPL
 Requires: desktop-common-data
 Requires: lxde-common
 Requires: lxappearance
+Requires: lxterminal
 Suggests: gpicview
 Suggests: leafpad
 Suggests: xarchiver
