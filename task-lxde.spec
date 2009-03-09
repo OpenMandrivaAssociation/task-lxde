@@ -1,9 +1,14 @@
-Name: task-lxde
-Version: 2009.0
-Release: %mkrel 6
+%define name    task-lxde
+%define version 2009.0
+%define release %mkrel 2
+
+Name: %{name}
+Version: %{version}
+Release: %{release}
 Summary: Metapackage for lxde
 Group: Graphical desktop/Other
 License: GPL
+URL: http://lxde.org
 Requires: desktop-common-data
 Requires: lxde-common
 Requires: lxappearance
@@ -13,6 +18,7 @@ Suggests: leafpad
 Suggests: xarchiver
 Suggests: lxtask
 Suggests: lxrandr
+Suggests: gdm
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
