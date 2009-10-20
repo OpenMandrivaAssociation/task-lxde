@@ -19,6 +19,7 @@ Suggests: xarchiver
 Suggests: lxtask
 Suggests: lxrandr
 Suggests: gdm
+Suggests: halevt-user
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
