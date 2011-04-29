@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 2011.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: %{name}
 Version: %{version}
@@ -21,6 +21,8 @@ Suggests: lxrandr
 Suggests: gdm
 Suggests: halevt-user
 Suggests: xmessage
+Suggests: networkmanager-applet
+Suggests: parcellite
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
