@@ -25,6 +25,9 @@ Suggests: networkmanager-applet
 Suggests: parcellite
 Suggests: volumeicon
 Suggests: catfish
+Suggests: lxsession-edit
+Suggests: lxinput
+Suggests: fskbsetting
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
