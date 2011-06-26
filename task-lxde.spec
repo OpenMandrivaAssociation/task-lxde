@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version %mdvver
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name: %{name}
 Version: %{version}
@@ -21,7 +21,9 @@ Suggests: lxrandr
 Suggests: gdm
 Suggests: halevt-user
 Suggests: xmessage
+%if %mdvver >= 201100
 Suggests: networkmanager-applet
+%endif
 Suggests: parcellite
 Suggests: volumeicon
 Suggests: catfish
