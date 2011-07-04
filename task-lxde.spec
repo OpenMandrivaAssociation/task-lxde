@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 201100
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name: %{name}
 Version: %{version}
@@ -20,6 +20,7 @@ Suggests: lxtask
 Suggests: lxrandr
 Suggests: gdm
 Suggests: halevt-user
+Suggests: scrot
 Suggests: xmessage
 %if %mdvver >= 201100
 Suggests: networkmanager-applet
