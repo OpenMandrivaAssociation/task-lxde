@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 201100
-%define release %mkrel 8
+%define release %mkrel 9
 
 Name: %{name}
 Version: %{version}
@@ -19,7 +19,7 @@ Suggests: xarchiver
 Suggests: lxtask
 Suggests: lxrandr
 Suggests: gdm
-Suggests: halevt-user
+#Suggests: halevt-user
 Suggests: scrot
 Suggests: xmessage
 %if %mdvver >= 201100
