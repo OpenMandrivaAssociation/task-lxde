@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 201100
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: %{name}
 Version: %{version}
@@ -18,7 +18,7 @@ Suggests: leafpad
 Suggests: xarchiver
 Suggests: lxtask
 Suggests: lxrandr
-Suggests: gdm
+#Suggests: gdm
 #Suggests: halevt-user
 Suggests: scrot
 Suggests: xmessage
@@ -28,8 +28,9 @@ Suggests: networkmanager-applet
 Suggests: parcellite
 Suggests: volumeicon
 Suggests: catfish
-Suggests: lxsession-edit
-Suggests: lxinput
+#Suggests: lxsession-edit
+#Suggests: lxinput
+Suggests: mdvinput
 Suggests: fskbsetting
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
