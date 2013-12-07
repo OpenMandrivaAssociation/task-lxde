@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 201100
-%define release 11
+%define release 12
 
 Name: %{name}
 Version: %{version}
