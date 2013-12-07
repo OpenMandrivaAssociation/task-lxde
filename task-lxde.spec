@@ -1,6 +1,6 @@
 %define name    task-lxde
 %define version 201100
-%define release %mkrel 10
+%define release 11
 
 Name: %{name}
 Version: %{version}
