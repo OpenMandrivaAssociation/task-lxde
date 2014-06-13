@@ -1,6 +1,6 @@
 Name:		task-lxde
 Version:	%distro_release
-Release:	1
+Release:	2
 Summary:	Metapackage for lxde
 Group:		Graphical desktop/Other
 License:	GPL
