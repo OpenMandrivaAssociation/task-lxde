@@ -27,6 +27,7 @@ Suggests:	catfish
 #Suggests:	lxsession-edit
 #Suggests:	lxinput
 Suggests:	mdvinput
+Requires:	lxpolkit
 Suggests:	fskbsetting
 BuildArch:	noarch
 
