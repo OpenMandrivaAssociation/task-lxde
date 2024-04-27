@@ -4,7 +4,7 @@
 Summary:	Metapackage for LXDE Desktop Environment
 Name:		task-lxde
 Version:	%distro_release
-Release:	2
+Release:	3
 Group:		Graphical desktop/Other
 License:	GPL
 URL:		https://lxde.org/
@@ -38,7 +38,7 @@ Recommends:	catfish
 Recommends:	leafpad
 Recommends:	networkmanager-applet
 Recommends:	parcellite
-Recommends:	preload
+# Recommends:	preload
 # Suggests:	halevt-user
 Recommends:	scrot
 #Recommends:	lxscreenshot
